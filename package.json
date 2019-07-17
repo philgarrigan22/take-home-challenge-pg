@@ -1,0 +1,23 @@
+{
+  "name": "yesware-challenge-phil-garrigan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run-program/challenge-with-classes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philgarrigan22/take-home-challenge-pg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philgarrigan22/take-home-challenge-pg/issues"
+  },
+  "homepage": "https://github.com/philgarrigan22/take-home-challenge-pg#readme",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "knuth-shuffle": "^1.0.8"
+  }
+}
