@@ -271,4 +271,4 @@ function runFile (inFile, outFile) {
   currentTest.modifiedNames(25)
 }
 
-module.exports = runFile, class NameParser
+module.exports = runFile
