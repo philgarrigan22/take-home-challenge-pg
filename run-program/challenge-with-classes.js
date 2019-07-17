@@ -58,7 +58,7 @@ class NameParser {
     const nameData = await this.trimData(this.inFile)
     const uniqueFullNames = nameData.filter(this.uniqueElement)
     console.log('1.) The unique count of full names is ', uniqueFullNames.length)
-    const writeData = '1.) The unique count of full names is ' + uniqueFullNames.length + '\n'
+    const writeData = '1.) The unique count of full names is ' + uniqueFullNames.length + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 
@@ -72,7 +72,7 @@ class NameParser {
     })
     const uniqueLastNames = lastNames.filter(this.uniqueElement)
     console.log('2.) The unique count of last names is ', uniqueLastNames.length)
-    const writeData = '2.) The unique count of last names is ' + uniqueLastNames.length + '\n'
+    const writeData = '2.) The unique count of last names is ' + uniqueLastNames.length + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 
@@ -86,7 +86,7 @@ class NameParser {
     })
     const uniqueFirstNames = firstNames.filter(this.uniqueElement)
     console.log('3.) The unique count of first names is ', uniqueFirstNames.length)
-    const writeData = '3.) The unique count of first names is ' + uniqueFirstNames.length + '\n'
+    const writeData = '3.) The unique count of first names is ' + uniqueFirstNames.length + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 
@@ -128,7 +128,7 @@ class NameParser {
       topTenOccurence = sortedLastNameOccur.slice(-10)
     }
     console.log('4.) The top ten most common last names are ', topTenOccurence)
-    const writeData = '4.) The top ten most common last names are ' + topTenOccurence + '\n'
+    const writeData = '4.) The top ten most common last names are ' + topTenOccurence + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 
@@ -170,7 +170,7 @@ class NameParser {
       topTenOccurence = sortedFirstNameOccur.slice(-10)
     }
     console.log('5.) The top ten most common first names are ', topTenOccurence)
-    const writeData = '5.) The top ten most common first names are ' + topTenOccurence + '\n'
+    const writeData = '5.) The top ten most common first names are ' + topTenOccurence + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 
@@ -221,7 +221,7 @@ class NameParser {
       }
     })
     console.log('6.) Completely Unique Names N', (fullyUniqueNames.length), 'are', fullyUniqueNames)
-    const writeData = '6.) Completely Unique Names N ' + fullyUniqueNames.length + ' are ' + fullyUniqueNames + '\n'
+    const writeData = '6.) Completely Unique Names N ' + fullyUniqueNames.length + ' are ' + fullyUniqueNames + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
     return fullyUniqueNames
   }
@@ -254,7 +254,7 @@ class NameParser {
       }
     }
     console.log('7.) shuffledUniqueList is ', shuffledUniqueList)
-    const writeData = '7.) shuffledUniqueList is ' + shuffledUniqueList + '\n'
+    const writeData = '7.) shuffledUniqueList is ' + shuffledUniqueList + '\n' + '\n'
     this.appendSolution(this.outFile, writeData)
   }
 }
