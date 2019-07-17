@@ -1,0 +1,14 @@
+2.) The unique count of last names is 475
+
+4.) The top ten most common last names are Batz,127,Johns,128,Becker,128,Romaguera,128,Terry,129,Hills,130,Hilll,134,Ortiz,135,Lang,136,Barton,143
+
+1.) The unique count of full names is 49157
+
+6.) Completely Unique Names N 25 are Mckenna Graham,Garfield Marvin,Mariah McLaughlin,Agustina Lang,Nikko Bradtke,Luis Adams,Matilde Lehner,Anita Ortiz,Berry Koch,Nicolas Cartwright,Elmo Fisher,Gertrude Kunze,Davin Stanton,Constantin O'Conner,Roy Runolfsdottir,Colby Rogahn,Ryley Tromp,Stanley Hoppe,Bethel Shanahan,Samanta Hills,Thad McGlynn,Norma Lynch,Lennie Bahringer,Madison Tillman,Donna Stoltenberg
+
+7.) shuffledUniqueList is Gertrude Lang,Norma Tillman,Luis McGlynn,Constantin Koch,Samanta Lynch,Ryley Graham,Roy Marvin,Matilde Hills,Constantin Hills,Nicolas McGlynn,Donna Fisher,Bethel Lang,Norma Tillman,Luis Kunze,Colby Marvin,Constantin Ortiz,Thad Stanton,Lennie Lynch,Garfield O'Conner,Nicolas Lehner,Anita Bahringer,Mckenna Koch,Mariah Tromp
+
+5.) The top ten most common first names are Baron,29,Kayley,30,Summer,30,Ulices,30,Manley,30,Kaycee,30,Keon,31,Stephania,31,Andreanne,32,Tara,34
+
+3.) The unique count of first names is 3007
+
